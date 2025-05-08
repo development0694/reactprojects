@@ -1,0 +1,79 @@
+.container {
+text-align: center;
+padding: 20px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+justify-content: center;
+}
+
+.card {
+border: 1px solid #ddd;
+border-radius: 10px;
+padding: 15px;
+background: #fff;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.2s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+.image {
+max-width: 120px;
+height: auto;
+margin-bottom: 10px;
+}
+
+.title {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.price {
+font-size: 16px;
+color: #28a745;
+margin-bottom: 10px;
+}
+
+.quantityControls {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin: 10px 0;
+}
+
+.btn {
+background-color: #007bff;
+color: white;
+border: none;
+padding: 5px 10px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 18px;
+}
+
+.btn:hover {
+background-color: #0056b3;
+}
+
+.removeBtn {
+background-color: #dc3545;
+color: white;
+border: none;
+padding: 8px 12px;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.removeBtn:hover {
+background-color: #a71d2a;
+}
