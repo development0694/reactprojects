@@ -1,0 +1,82 @@
+/* Form Container */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h2 {
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #003366;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 51, 102, 0.3);
+}
+
+/* Checkbox */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.checkbox-container input {
+  margin-right: 8px;
+}
+
+/* Register Button */
+button {
+  padding: 12px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #002244;
+  transform: scale(1.05);
+}
+
+/* Student List */
+.student-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.student-list li {
+  background: #f1f9ff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  font-size: 16px;
+  border-left: 4px solid #003366;
+}
